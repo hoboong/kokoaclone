@@ -24,7 +24,7 @@
 
     <header class="alt-header">
         <div class="alt-header__column">
-            <a href="more.html">
+            <a href="chats.html">
                 <i class="fas fa-angle-left fa-3x"></i>
             </a>
             </div>
@@ -37,12 +37,49 @@
     </header>
 
 
-    <main class="main-screen">
+    <main class="main-screen main-chat">
+        <div class="chats__timestamp">
+            Friday, September 25, 2020
+        </div>
+        <div class="message-row">
+            <img src="file:///C:/Users/%EB%B2%95%EB%AC%B4%EB%B2%95%EC%9D%B8%EC%86%A1%EC%B2%9C%20-%20ITPC/Documents/GitHub/kokoaclone/profile.jpg">
+            <div class="message-row__content">
+                <span class="message__author">Hoboong</span>
+                <div class="message__message">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">10:20</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__message">
+                    <span class="message__bubble">What's up bro</span>
+                    <span class="message__time">10:20</span>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <form class="reply">
+        <div class="reply__column">
+            <span>
+                <i class="far fa-plus-square fa-2x"></i>
+            </span>
+        </div>
+        <div class="reply__column">
+            <input placeholder="write a message..." type="text" />
+            <i class="far fa-grin fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+
+    </form>
   
     <script src="https://kit.fontawesome.com/66dfde8535.js" 
     crossorigin="anonymous">
     </script>
+    <script src="chat.js"></script>
 </body>
 </html>
